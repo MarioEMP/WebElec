@@ -1,0 +1,175 @@
+:root {
+    --primary: #6209DB
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    min-height: 100px;
+    margin-bottom: 30px;
+}
+
+#navtext a:hover {
+    text-decoration: underline;
+    color: #6209DB;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+#contacto {
+    background-color: aquamarine;
+    padding: 30px;
+    margin: auto;
+    width: 60%;
+    height: 800px;
+    margin-bottom: 120px;
+}
+
+#email {
+    width: 70%;
+}
+
+#exampleFormControlTextarea1 {
+    max-height: 350px;
+}
+
+#botonform {
+    padding: 20px;
+    margin-bottom: 120px;
+}
+
+#servicios {
+    margin: 0 5% 150px 5%;
+}
+
+.card {
+    width: 25%;
+    max-width: 350px;
+    margin: auto;
+    box-shadow: 1px 1px 10px;
+}
+
+.card:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 30px;
+}
+
+
+#social {
+    margin: 30px;
+    text-align: center;
+}
+
+#social img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 40px;
+}
+
+footer {
+    background: linear-gradient(rgb(67, 180, 255), rgb(255, 255, 255));
+    position: fixed;
+    width: 100%;
+    bottom: 1px;
+    max-height: 130px;
+}
+
+.socialicon:hover {
+    transition: 300ms;
+    transform: scale(1.1)
+}
+
+#empleados {
+    margin: 30px 10% 150px 10%;
+}
+
+#empresa {
+    margin: 30px 10% 120px 10%;
+}
+
+#inicio {
+    margin: auto;
+    margin-bottom: 120px;
+    max-width: 60vw;
+    margin-top: 5vh;
+}
+
+#inicio img {
+    max-height: 60vh;
+}
+
+#filtro {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    padding: 70px;
+    background: rgba(255, 255, 255, 0.308);
+    z-index: 2;
+}
+
+.carousel-caption{
+    color: black;
+    font-weight: bold;
+    z-index: 3;
+}
+
+#comentarioinicio {
+    display: none;
+}
+
+@media (max-width: 1130px) {
+
+    .card {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 60px;
+        display: flex;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    #servicios {
+        margin-bottom: 20vh;
+    }
+
+}
+
+@media (max-width: 770px) {
+
+    #inicio {
+        margin-bottom: 120px;
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #comentarioinicio {
+        display: block;
+        margin: 30px;
+    }
+
+    #filtro {
+        display: none;
+    }
+
+    #empresa {
+        margin-bottom: 200px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    #contacto {
+        width: 100%;
+        margin: 0;
+    }
+}
